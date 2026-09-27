@@ -1,0 +1,486 @@
+{
+  "acceptance_checks": {
+    "01_panel_offset_clearance_0_8_plusminus_0_05": true,
+    "02_panel_outline_covers_effective_opening": true,
+    "03_shell_and_bottom_clear_full_height_keepouts": true,
+    "04_six_mounts_aligned_and_have_support": true,
+    "05_clear_height_exceeds_catalog_body_and_design_allowance": true,
+    "06_assembly_inside_738_230_envelope": true,
+    "07_separate_real_panel_and_no_assembly_overlap": true
+  },
+  "geometric_checks_all_pass": true,
+  "clearance_sample_range_mm": [
+    0.7993502981365981,
+    0.8000000000000228
+  ],
+  "clearance_sample_method": "1200 panel boundary points to recess polyline with <=0.1 mm chord sampling",
+  "uncovered_opening_area_mm2": 0.0,
+  "panel_support_contact_area_mm2": 7662.785556905524,
+  "pairwise_interference_mm3": {
+    "shell__bottom": 0.0,
+    "shell__panel_source_DXF": 0.0,
+    "bottom__panel_source_DXF": 0.0
+  },
+  "keepout_intersection_mm3": {
+    "shell": 0.0,
+    "bottom": 0.0
+  },
+  "panel_mounts": [
+    {
+      "x": -309.9999999999999,
+      "y": -71.80000000000025,
+      "feedback_y": 71.80000000000025,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.801769079201538
+    },
+    {
+      "x": 8.544734967894896e-14,
+      "y": -71.80000000000027,
+      "feedback_y": 71.80000000000027,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.8017690792016
+    },
+    {
+      "x": 310.0000000000001,
+      "y": -71.80000000000025,
+      "feedback_y": 71.80000000000025,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.801769079201538
+    },
+    {
+      "x": -309.99999999999983,
+      "y": -156.80000000000024,
+      "feedback_y": 156.80000000000024,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.801769079201508
+    },
+    {
+      "x": 310.00000000000006,
+      "y": -156.80000000000024,
+      "feedback_y": 156.80000000000024,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.801769079201508
+    },
+    {
+      "x": 8.525426741379663e-14,
+      "y": -188.50000000000006,
+      "feedback_y": 188.50000000000006,
+      "centre_error_mm": 0.0,
+      "bore_obstruction_mm3": 0.0,
+      "support_ring_area_mm2": 9.801769079201588
+    }
+  ],
+  "clear_height_under_controls_mm": 63.5,
+  "remaining_height_after_50mm_design_allowance_mm": 13.5,
+  "hardware": {
+    "jlf_bare_dimension_mm": 34.0,
+    "jlf_installed_allowance_design_mm": 50.0,
+    "obsf30_below_flange_including_terminals_mm": 31.7,
+    "obsf24_below_flange_including_terminals_mm": 32.0,
+    "button_installed_allowance_design_mm": 50.0,
+    "obsf_max_panel_thickness_mm": 3.9,
+    "jlf_source_pattern_xy_mm": [
+      50,
+      73
+    ],
+    "jlf_catalog_rotated_pattern_xy_mm": [
+      40,
+      85
+    ],
+    "source_JLF_mounting_pattern_matches_catalog": false,
+    "alternative_panel_supplied": true,
+    "catalogue_url": "https://www.rs2006.co.jp/e/sanwaseimitsu/Sanwa2020.pdf",
+    "catalogue_printed_pages": [
+      4,
+      5,
+      13
+    ],
+    "jlf_connector_and_wiring_fit_requires_physical_check": true
+  },
+  "source_sha256": "e72318162d4923a58550615b52b968e3966dca6737da14b732210cda59eb845c",
+  "removed_disconnected_rib_fragments": [
+    {
+      "volume_mm3": 550.2643784544816,
+      "centre_mm": [
+        -197.70361190952175,
+        -117.48126555681453,
+        55.5
+      ]
+    },
+    {
+      "volume_mm3": 522.0003372116859,
+      "centre_mm": [
+        161.72685522551524,
+        -127.456,
+        55.5
+      ]
+    }
+  ],
+  "caveats": [
+    "Source DXF is authoritative for panel geometry but includes a NONSTANDARD JLF mounting pattern.",
+    "Outer shell height, side profiles, bottom-hole coordinates remain estimates.",
+    "No physical fit, printing, wiring, or structural strength validation performed.",
+    "Conservative keepout regions overlap between some controls; they are not literal component bodies."
+  ],
+  "units": "mm",
+  "coordinate_frame": "RH: X player-right, Y away from player, rear Y=0; front Y=-230; Z up",
+  "source_to_CAD_translation_mm": [
+    -316.00000000000034,
+    -194.8,
+    0
+  ],
+  "scale": 0.27100271002710025,
+  "scale_percent": 27.100271002710024,
+  "full_envelope_mm": [
+    738.0,
+    230.0,
+    70.0
+  ],
+  "small_envelope_mm": [
+    200,
+    62.33062330623306,
+    18.970189701897016
+  ],
+  "parameters": {
+    "width": 738.0,
+    "depth": 230.0,
+    "height": 70.0,
+    "front_bulge": 20.0,
+    "front_corner_radius": 30.0,
+    "rear_corner_radius": 12.0,
+    "top_edge_radius": 6.0,
+    "bottom_edge_radius": 1.5,
+    "wall": 5.0,
+    "deck_thickness": 10.0,
+    "bottom_recess_inset": 3.0,
+    "bottom_thickness": 4.5,
+    "bottom_clearance": 0.8,
+    "panel_rear_distance": 65.8,
+    "panel_thickness": 2.0,
+    "panel_clearance": 0.8,
+    "panel_support_land": 5.0,
+    "panel_boss_radius": 9.0,
+    "panel_boss_height": 16.0,
+    "fastener_hole_diameter": 4.5,
+    "carriage_neck_relief_width": 5.0,
+    "carriage_neck_relief_depth": 2.0,
+    "nut_across_flats": 7.4,
+    "nut_pocket_depth": 3.4,
+    "bottom_boss_radius": 9.0,
+    "bottom_boss_height": 12.0,
+    "bottom_bridge_width": 8.0,
+    "button_keepout_diameter": 40.0,
+    "joystick_keepout_width": 80.0,
+    "joystick_keepout_depth": 110.0,
+    "keepout_extra_clearance": 0.3,
+    "joystick_installation_depth_design": 50.0,
+    "button_installation_depth_design": 50.0,
+    "rib_width": 4.0,
+    "rib_drop": 10.0,
+    "rib_side_offset": 48.0,
+    "cable_exit_diameter": 10.0,
+    "cable_exit_x": 0.0,
+    "cable_exit_z": 22.0,
+    "pcb_posts_enabled": true,
+    "pcb_x": 0.0,
+    "pcb_y": -35.0,
+    "pcb_hole_pitch_x": 58.0,
+    "pcb_hole_pitch_y": 28.0,
+    "pcb_post_radius": 4.5,
+    "pcb_post_height": 8.0,
+    "pcb_hole_diameter": 3.2,
+    "instruction_width": 550.0,
+    "instruction_depth": 42.0,
+    "instruction_x": 50.0,
+    "instruction_y": -29.0,
+    "instruction_recess_depth": 1.0,
+    "label_width": 100.0,
+    "label_depth": 35.0,
+    "label_x": -284.0,
+    "label_y": -33.0,
+    "label_recess_depth": 1.0,
+    "fit_ring_outer_margin": 6.0,
+    "fit_ring_height": 10.0,
+    "fit_tile_count": 4,
+    "fit_tie_width": 3.0,
+    "fit_tie_thickness": 1.5,
+    "visual_groove_depth": 1.0,
+    "visual_hole_depth": 2.0,
+    "mesh_tolerance": 0.06,
+    "mesh_angular_tolerance": 0.1
+  },
+  "parts": {
+    "shell": {
+      "full": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          738.0,
+          230.0000000000009,
+          70.0000001
+        ],
+        "volume_mm3": 1490013.7624313764,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 37496,
+        "mesh_volume_mm3": 1489833.2279519055
+      },
+      "small": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          200.00000009999997,
+          62.33062340623329,
+          18.97018970189702
+        ],
+        "volume_mm3": 29655.90496519395,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 37496,
+        "mesh_volume_mm3": 29652.31176793554
+      },
+      "uniform_scaling": true,
+      "orientation": "top deck down"
+    },
+    "bottom": {
+      "full": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          730.4000000000001,
+          222.40000000000117,
+          12.5
+        ],
+        "volume_mm3": 705486.8998562712,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 8724,
+        "mesh_volume_mm3": 705426.8814020044
+      },
+      "small": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          197.94037940379405,
+          60.27100271002728,
+          3.387533875338753
+        ],
+        "volume_mm3": 14041.3820219936,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 8724,
+        "mesh_volume_mm3": 14040.187468211092
+      },
+      "uniform_scaling": true,
+      "orientation": "flat bottom down"
+    },
+    "panel_source_DXF": {
+      "full": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          632.0000000000002,
+          129.0,
+          2.0
+        ],
+        "volume_mm3": 131728.60757201884,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 14860,
+        "mesh_volume_mm3": 131738.49169100658
+      },
+      "small": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          171.27371273712743,
+          34.959349593495936,
+          0.542005420054199
+        ],
+        "volume_mm3": 2621.808714691688,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 14860,
+        "mesh_volume_mm3": 2622.005439380249
+      },
+      "uniform_scaling": true,
+      "orientation": "flat bottom down"
+    },
+    "panel_JLF_40x85_alternative": {
+      "full": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          632.0000000000002,
+          129.0,
+          2.0
+        ],
+        "volume_mm3": 131728.60757201884,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 14860,
+        "mesh_volume_mm3": 131738.49168807268
+      },
+      "small": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          171.27371273712743,
+          34.959349593495936,
+          0.542005420054199
+        ],
+        "volume_mm3": 2621.808714691688,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 14860,
+        "mesh_volume_mm3": 2622.005439321855
+      },
+      "uniform_scaling": true,
+      "orientation": "flat bottom down"
+    },
+    "visual_solid": {
+      "full": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          738.0,
+          230.0000000000009,
+          70.0000001
+        ],
+        "volume_mm3": 11379898.69898596,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 35536,
+        "mesh_volume_mm3": 11378946.484712062
+      },
+      "small": {
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          200.00000009999997,
+          62.33062340623329,
+          18.97018970189702
+        ],
+        "volume_mm3": 226495.35382812092,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 35536,
+        "mesh_volume_mm3": 226476.40180450457
+      },
+      "uniform_scaling": true,
+      "orientation": "flat bottom down"
+    }
+  },
+  "three_part_layout_bbox_mm": [
+    199.99999999999997,
+    173.56097570975663,
+    18.970189701897024
+  ],
+  "three_part_3mf_watertight": true,
+  "fit_tests": {
+    "ring_bbox_mm": [
+      645.6000000000003,
+      142.60000000000002,
+      10.0
+    ],
+    "tiles": [
+      {
+        "index": 1,
+        "x_bounds_case_mm": [
+          -322.8000000000001,
+          -161.40000000000006
+        ],
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          161.4000000000001,
+          142.60000000000002,
+          10.0
+        ],
+        "volume_mm3": 45889.81855841037,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 2206,
+        "mesh_volume_mm3": 45886.30755073313
+      },
+      {
+        "index": 2,
+        "x_bounds_case_mm": [
+          -161.40000000000006,
+          0.0
+        ],
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          161.4000000000001,
+          142.60000000000002,
+          10.0
+        ],
+        "volume_mm3": 35632.56959019477,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 968,
+        "mesh_volume_mm3": 35632.85195810607
+      },
+      {
+        "index": 3,
+        "x_bounds_case_mm": [
+          0.0,
+          161.40000000000003
+        ],
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          161.40000000000006,
+          142.60000000000002,
+          10.0
+        ],
+        "volume_mm3": 35938.91168047456,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 928,
+        "mesh_volume_mm3": 35938.51964773029
+      },
+      {
+        "index": 4,
+        "x_bounds_case_mm": [
+          161.40000000000003,
+          322.8000000000001
+        ],
+        "valid_brep": true,
+        "solids": 1,
+        "bbox_mm": [
+          161.40000000000012,
+          142.60000000000002,
+          10.0
+        ],
+        "volume_mm3": 45132.187572826675,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "triangles": 2332,
+        "mesh_volume_mm3": 45130.240820203
+      }
+    ],
+    "assembly": "Butt-align using x bounds on a flat jig. No precision registration keys. Validate overall length separately.",
+    "test_limit": "Measures local panel seating, outline and six holes; not a joystick/wiring clearance or strength test."
+  }
+}

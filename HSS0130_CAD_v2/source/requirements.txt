@@ -1,0 +1,8 @@
+# Versions used to generate and check this package. Python 3.13 environment.
+# Build/check dependencies; optional preview dependencies are in the next file.
+cadquery==2.8.0
+cadquery-ocp==7.9.3.1.1
+ezdxf==1.4.4
+numpy==2.3.5
+trimesh==4.11.1
+shapely==2.1.2
